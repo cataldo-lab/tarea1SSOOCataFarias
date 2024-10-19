@@ -7,8 +7,8 @@
 
 using namespace std;
 
-int MAX_DISTANCIA;  // Se pedirá por pantalla
-int TOTAL_AUTOS;    // Se pedirá por pantalla
+int MAX_DISTANCIA;  // Lo vamos a pedir por pantalla (metros)
+int TOTAL_AUTOS;    // Lo pediremos por pantalla (cantidad de autos N = NUmero de threads)
 
 vector<int> progreso;  // Se inicializa dinámicamente después de obtener N autos
 
@@ -54,3 +54,5 @@ int main() {
     cout << "¡La carrera ha terminado!\n";
     return 0;
 }
+
+// By_ Francisco Farias y Benjamin cataldo : Universidad del BioBio  
